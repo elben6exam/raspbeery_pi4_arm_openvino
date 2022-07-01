@@ -105,6 +105,7 @@ Dockerfile.RPi64支持在树莓派上的ubuntu20.04系统，但是经过测试�
 ## 实例验证
 
 使用nanodet验证。参照教程 [NanoDet OpenVINO Demo](https://github.com/RangiLyu/nanodet/tree/main/demo_openvino)
+
     git clone https://github.com/RangiLyu/nanodet.git
     cd nanodet/demo_openvino
     mkdir build && cd build
