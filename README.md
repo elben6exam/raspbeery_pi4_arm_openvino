@@ -73,6 +73,7 @@ Dockerfile.RPi64支持在树莓派上的ubuntu20.04系统，但是经过测试�
 若树莓派的系统为ubuntu18.04或者是20.04,可运行文件夹install_dependencies中的**install_openvino_dependences.sh**文件自动安装。
 
 若版本为22.04,则手动安装模块如下(sudo apt-get install)：
+
     libgtk-3-0 libgli1 
      
     python-is-python3 python3-dev python3-venv python3-setuptools python3-pip 
