@@ -86,7 +86,7 @@ checkSrcTree $OPENVINO_CONTRIB https://github.com/openvinotoolkit/openvino_contr
 #checkSrcTree $OPENVINO_CONTRIB https://hub.fastgit.xyz/elben6exam/openvino_contrib.git master
 
 if [ "$WITH_OMZ_DEMO" = "ON" ]; then
-    checkSrcTree $OMZ_HOME https://github.com/elben6exam/open_model_zoo.git master
+    checkSrcTree $OMZ_HOME https://github.com/openvinotoolki/open_model_zoo.git master
     #checkSrcTree $OMZ_HOME https://hub.fastgit.xyz/elben6exam/open_model_zoo.git master
 fi
 
